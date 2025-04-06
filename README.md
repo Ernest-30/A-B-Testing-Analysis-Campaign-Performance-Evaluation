@@ -80,19 +80,20 @@ We compare how well each campaign gets people to make a purchase.
 - Control Group Conversion Rate = (Purchases in Control / Website clicks in Control) * 100
 - Test Group Conversion Rate = (Purchases in Test / Website clicks in Test) * 100
 
-![image](https://github.com/user-attachments/assets/0ba999fb-8774-452e-9b47-900817c9d335)
+![image](https://github.com/user-attachments/assets/8648f456-49e7-4b9c-a149-a4cdc79fe2cb)
 
 
 #### 2. Computing the Pooled Proportion (p)
 
 - Pooled proportion represents the overall conversion rate across both groups. 
 
-![image](https://github.com/user-attachments/assets/23f4567a-2577-4f50-bcd7-e7f973fb19fb)
+![image](https://github.com/user-attachments/assets/903c7239-2c78-4b71-be8e-74ccda3e8f44)
 
 
 #### 3. Computing Standard Error (SE)
 
 - We check how much the results might naturally fluctuate to ensure we’re making a fair comparison.
+- A standard error of 0.0010008 tells us that our test results are very reliable and not likely due to random chance
 
 ![image](https://github.com/user-attachments/assets/1f6724dd-54b9-4450-98bd-5957d2cc58f9)
 
@@ -118,9 +119,9 @@ A p-value of 0 means this is not random—the new campaign truly performed worse
 ## Interpretation of the A/B Test Results
 
 ### Conversion Rates:
-- Control Group Conversion Rate = 10%
-- Test Group Conversion Rate = 9%
-The test group performed worse than the control group (by 1 percentage point).
+- Control Group Conversion Rate = 9.83%
+- Test Group Conversion Rate = 8.64%
+The test group performed worse than the control group (by 1.19% point).
 
 ### Z-Score (11.84):
 - A Z-score of 11.84 means the difference between the two conversion rates is 11.84 standard deviations away from the mean of the distribution.
